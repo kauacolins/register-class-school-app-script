@@ -23,7 +23,7 @@ function iniciarChamada() {
       Logger.log("❌ Erro: Nenhuma aula preenchida encontrada.");
       return;
     }
-  
+
     // Capturar turno e idAula da última linha válida
     var linhaAula = dadosAula[ultimaLinhaAula - 1]; // Pegamos direto do array (mais rápido)
     var turnoAula = linhaAula[5]; // Coluna 6 = "turno"
